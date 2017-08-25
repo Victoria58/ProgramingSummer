@@ -11,16 +11,5 @@ public class App {
         StringExtractor stringExtractor = new StringExtractor();
         stringExtractor.extractString(inText);
 
-/*
-        Pattern pattern = Pattern.compile("[\"]");
-        Matcher matcher = pattern.matcher(inText);
-
-        while (matcher.find()){
-            System.out.println(matcher.group());
-        }
-
-    }
-*/
-
     }
 }
