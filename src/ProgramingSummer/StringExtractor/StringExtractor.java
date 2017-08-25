@@ -30,7 +30,7 @@ public class StringExtractor {
     public List<String> extractString(String inText) {
 
         List<Integer> indexesOfQuotes = findQuotes(inText);
-        List<String> extractedStrings = new ArrayList<>();
+        List<String> extractedStrings = new ArrayList<>(indexesOfQuotes.size()/2);
         /**
          *Цикл по ииндексам ковычек через 1 (0, 2, 4...). Выделяет строку из текста по индексу ковычки + 1
          * ( от 0 до 1, от 2 до 3...). + 1 необходимо чтобы добавить в строку саму ковычку.
