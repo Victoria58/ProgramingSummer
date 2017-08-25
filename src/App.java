@@ -10,6 +10,5 @@ public class App {
         String inText = "\"Xfd? gsdf\"-fd gdf gh-\"fgdf gdf g\".";
         StringExtractor stringExtractor = new StringExtractor();
         stringExtractor.extractString(inText);
-
     }
 }
