@@ -1,4 +1,4 @@
-package ProgramingSummer.StringExtractor;
+package programingSummer.stringExtractor;
 
 import java.util.ArrayList;
 import java.util.List;
